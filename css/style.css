@@ -13,6 +13,47 @@
     color: var(--main-color);
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    Height: 79px;
+
+}
+
+.conteneur-logo {
+    display: flex;
+    width: 161.09px;
+    height: 79px;
+    padding: 30px 50px;
+}
+
+.logo-header {
+    width: 61.09px;
+    height: 19px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    left: 1096px;
+    gap: 68px;
+}
+
+.boutton-hébergements,.boutton-activités {
+    padding-top: 16px;
+    Height: 35px;
+}
+
+.boutton-activités {
+    Width: 63px;
+}
+
+
+
+
+
 body {
     display: flex;
     justify-content: center;
@@ -23,6 +64,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    min-width: 320px;
 }
 
 a {
@@ -127,6 +169,16 @@ a {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+@media (min-width: 768px) {
+
+    .boutton-activités:hover,
+    .boutton-hébergements:hover {
+        color: #0065FC;
+        border-top: 2px solid #0065FC;
+    }
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -163,5 +215,11 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .boutton-activités:hover,
+    .boutton-hébergements:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+    }
 }
+
+/* ... */
