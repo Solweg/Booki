@@ -28,7 +28,7 @@ header {
     padding: 30px 50px;
 }
 
-.logo-header {
+header img {
     width: 61.09px;
     height: 19px;
 }
@@ -41,7 +41,7 @@ nav {
     gap: 68px;
 }
 
-.boutton-hébergements,.boutton-activités {
+nav a {
     padding-top: 16px;
     Height: 35px;
 }
@@ -50,8 +50,19 @@ nav {
     Width: 63px;
 }
 
+.conteneur-formulaire {
+    display: flex;
+    flex-direction: column;
+}
 
+form {
+    display: flex;
+    flex-direction: row;
+}
 
+input{
+    color: black;
+}
 
 
 body {
@@ -215,6 +226,7 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
     .boutton-activités:hover,
     .boutton-hébergements:hover {
         color: #0065FC;
