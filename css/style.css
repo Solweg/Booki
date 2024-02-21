@@ -17,7 +17,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    Height: 79px;
+    height: 79px;
 
 }
 
@@ -43,25 +43,40 @@ nav {
 
 nav a {
     padding-top: 16px;
-    Height: 35px;
+    height: 35px;
 }
 
 .boutton-activités {
     Width: 63px;
 }
 
+.partie-1 {
+    display: flex;
+    flex-direction: column;
+    height: 281px;
+}
+
 .conteneur-formulaire {
     display: flex;
     flex-direction: column;
+    height: 281px;
+}
+
+.conteneur-formulaire h1 {
+    display: flex;
+    height: 26px;
+    margin-bottom: 0px;
+}
+
+.conteneur-formulaire p {
+    display: flex;
+    margin-top: 0px;
 }
 
 form {
     display: flex;
     flex-direction: row;
-}
-
-input{
-    color: black;
+    height: 49px;
 }
 
 
