@@ -13,11 +13,6 @@
     color: var(--main-color);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -49,10 +44,6 @@ nav a {
 .boutton-activités {
     Width: 63px;
 }
-
-
-
-
 
 body {
     display: flex;
