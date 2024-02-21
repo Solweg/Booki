@@ -13,19 +13,21 @@
     color: var(--main-color);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    Height: 79px;
-
+    height: 79px;
 }
 
 .conteneur-logo {
     display: flex;
-    width: 161.09px;
-    height: 79px;
-    padding: 30px 50px;
+    padding-top: 30px;
 }
 
 .logo-header {
@@ -36,27 +38,12 @@ header {
 nav {
     display: flex;
     flex-direction: row;
-    height: 35px;
-    left: 1096px;
     gap: 68px;
 }
 
 .boutton-hébergements,.boutton-activités {
     padding-top: 16px;
-    Height: 35px;
-}
-
-.boutton-activités {
-    Width: 63px;
-}
-
-
-
-
-
-body {
-    display: flex;
-    justify-content: center;
+    height: 35px;
 }
 
 .main-container {
