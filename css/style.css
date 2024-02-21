@@ -13,19 +13,21 @@
     color: var(--main-color);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 79px;
-
 }
 
 .conteneur-logo {
     display: flex;
-    width: 161.09px;
-    height: 79px;
-    padding: 30px 50px;
+    padding-top: 30px;
 }
 
 header img {
@@ -36,48 +38,20 @@ header img {
 nav {
     display: flex;
     flex-direction: row;
-    height: 35px;
-    left: 1096px;
     gap: 68px;
 }
 
 nav a {
     padding-top: 16px;
-    height: 35px;
+    Height: 35px;
 }
 
 .boutton-activités {
     Width: 63px;
 }
 
-.partie-1 {
-    display: flex;
-    flex-direction: column;
-    height: 281px;
-}
 
-.conteneur-formulaire {
-    display: flex;
-    flex-direction: column;
-    height: 281px;
-}
 
-.conteneur-formulaire h1 {
-    display: flex;
-    height: 26px;
-    margin-bottom: 0px;
-}
-
-.conteneur-formulaire p {
-    display: flex;
-    margin-top: 0px;
-}
-
-form {
-    display: flex;
-    flex-direction: row;
-    height: 49px;
-}
 
 
 body {
