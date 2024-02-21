@@ -45,6 +45,39 @@ nav a {
     Width: 63px;
 }
 
+form {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 377px;
+    height: 49px;
+}
+
+form i {
+    background-color: #F2F2F2;
+    color: #000000;
+    height: 50px;
+    width: 49px;
+}
+.conteneur-filtre {
+    display: flex;
+    flex-direction: row;
+}
+
+.conteneur-filtre,
+h1 {
+    margin-bottom: 8px;
+}
+
+.conteneur-filtre,
+p {
+    margin-top: 8px;
+}
+
+.conteneur-info {
+    display: flex;
+    flex-direction: row;
+}
+
 body {
     display: flex;
     justify-content: center;
