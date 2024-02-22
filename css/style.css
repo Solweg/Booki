@@ -46,18 +46,65 @@ nav a {
 }
 
 form {
+    display: flex;
+    flex-direction: row;
     margin-top: 35px;
     margin-bottom: 35px;
     width: 377px;
     height: 49px;
+    border-radius: 15px;
+    border: solid;
+    border-color:#F2F2F2;
+    background-color: #0065FC;
 }
 
-form i {
+
+.fa-location-dot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #F2F2F2;
     color: #000000;
     height: 50px;
     width: 49px;
 }
+
+input {
+    border: none;
+}
+
+::placeholder {
+    font-weight: bold;
+    opacity: 1;
+    color: #000000;
+    font-size:18px ;
+  }
+
+  .mobile {
+    display: none;
+}
+
+.desktop{
+    display: inline;
+    
+    color: #FFFFFF;
+    width: 132px;
+   
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #0065FC;
+    border: 1px;
+    border-color: #0065FC;
+}
+
 .conteneur-filtre {
     display: flex;
     flex-direction: row;
@@ -244,6 +291,16 @@ a {
     .boutton-hébergements:hover {
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline;
+
+    }
+    .fa-magnifying-glass {
+        color: #FFFFFF;
     }
 }
 
