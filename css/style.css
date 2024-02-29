@@ -42,6 +42,11 @@ nav a {
     padding-top: 16px;
 }
 
+.boutton-activités,.boutton-hébergements{
+    border-top: solid 2px transparent;
+
+}
+
 /*****Info-groupe*****/
 
 .info-groupe {
@@ -355,7 +360,7 @@ a {
     .boutton-activités:hover,
     .boutton-hébergements:hover {
         color: #0065FC;
-        border-top: 2px solid #0065FC;
+        border-top-color: #0065FC;
     }
 }
 
