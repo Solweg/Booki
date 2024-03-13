@@ -520,12 +520,6 @@ ul {
 
     }
 
-    .button-activites:hover,
-    .button-hébergements:hover {
-        color: #0065FC;
-        border-bottom-color: #0065FC;
-    }
-
     .button-activites,
     .button-hébergements {
         padding-bottom: 16px;
@@ -537,6 +531,11 @@ ul {
         border-bottom: 2px solid #F2F2F2;
     }
 
+    .button-activites:hover,
+    .button-hébergements:hover {
+        color: #0065FC;
+        border-bottom-color: #0065FC;
+    }
 
 
     .info-groupe {
